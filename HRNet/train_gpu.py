@@ -40,7 +40,7 @@ def parse_args():
 
     parser.add_argument('--data_root',
                         help='the root path of your dataset',
-                        default='/usr/local/Huangshuqi/ImageData/flower_data',
+                        default='/flower_data',
                         type=str)
 
     parser.add_argument('--num_classes',
